@@ -131,14 +131,14 @@ if len(argv) > 1 and argv[1] in ["bdist_wheel", "install", "develop"]:
     error_compiler.start()
 
 setup(
-    name="Pyrogram",
+    name="Pyrogramx",
     version=version,
     description="Telegram MTProto API Client Library and Framework for Python",
     long_description=readme,
     long_description_content_type="text/markdown",
-    url="https://github.com/pyrogram",
-    download_url="https://github.com/pyrogram/pyrogram/releases/latest",
-    author="Dan",
+    url="https://github.com/pyrogramx",
+    download_url="https://github.com/pyrogram/pyrogramx/releases/latest",
+    author="Danx",
     author_email="dan@pyrogram.org",
     license="LGPLv3+",
     classifiers=[
@@ -165,16 +165,16 @@ setup(
     ],
     keywords="telegram chat messenger mtproto api client library python",
     project_urls={
-        "Tracker": "https://github.com/pyrogram/pyrogram/issues",
+        "Tracker": "https://github.com/pyrogram/pyrogramx/issues",
         "Community": "https://t.me/Pyrogram",
-        "Source": "https://github.com/pyrogram/pyrogram",
-        "Documentation": "https://docs.pyrogram.org",
+        "Source": "https://github.com/pyrogram/pyrogramx",
+        "Documentation": "https://docs.pyrogram.orgx",
     },
     python_requires="~=3.6",
     packages=find_packages(exclude=["compiler*"]),
     package_data={
-        "pyrogram": ["mime.types"],
-        "pyrogram.storage": ["schema.sql"]
+        "pyrogramx": ["mime.types"],
+        "pyrogramx.storage": ["schema.sql"]
     },
     zip_safe=False,
     install_requires=requires,
